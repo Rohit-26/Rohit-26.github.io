@@ -3,9 +3,12 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 <style>
-
-.main{width:1540px;height:730px; border: 1px solid black;padding:10px;background-color:#FFFFFF}
-#container{width:1200px; height:700px; border: 1px solid black; margin-left:160px }
+<!--border: 1px solid black;-->
+.main{width:1570px;height:732px; padding:10px;background-color:#FFFFFF;}
+#container{width:900px; height:725px;  margin-left:50px ;margin-top:15px;}
+.right-side-menu{width:600px;height:700px;  margin-left:960px;margin-top:-710px;padding-top:20px}
+.know_about_me{width:280px;height:120px; border: 1px solid white;margin-top:10px;background-color:#665790;padding-top:20px;padding-left:20px;border-radius: 20px;}
+.social_links{width:280px;height:70px;margin-left:520px; margin-top:-17px;padding-left:20px}
 .circle {
       width: 250px;
       height: 250px;
@@ -37,7 +40,8 @@
 	border: 4px solid #665790;
 	width:550px;
 	height:200px;
-	margin-left:190px
+	margin-left:180px;
+	margin-top:10px
 }
 .arrow_box:after, .arrow_box:before {
 	top: 100%;
@@ -64,8 +68,29 @@
 }
 
 
-#aboutMe{font-family: 'Satisfy', cursive; font-size:33px; color: white; padding:10px; border:1px solid black; height: 150px;margin-left:10px}
+#aboutMe{font-family: 'Satisfy', cursive; font-size:28px; color: white; padding:10px;  height: 150px;margin-left:10px;}
 
+
+
+#technology_known_1{width:300px;height:100px; border: 1px solid black; border-radius: 30px;border: 2px solid #000000;background:#665790;}
+#technology_known_2{width:300px;height:100px; border: 1px solid black;margin-left:150px; margin-top:30px;font-family: 'Satisfy', cursive; font-size:20px; color: white;background:#665790; border-radius: 30px;border: 2px solid #000000;}
+#technology_known_3{width:300px;height:100px; border: 1px solid black;margin-left:280px; margin-top:30px;font-family: 'Satisfy', cursive; font-size:20px; color: white;background:#665790; border-radius: 30px;border: 2px solid #000000;}
+#technology_known_4{width:300px;height:100px; border: 1px solid black;margin-left:150px; margin-top:30px;font-family: 'Satisfy', cursive; font-size:20px; color: white;background:#665790; border-radius: 30px;border: 2px solid #000000;}
+#technology_known_5{width:300px;height:100px; border: 1px solid black;margin-top:30px;font-family: 'Satisfy', cursive; font-size:20px; color: white;background:#665790; border-radius: 30px;border: 2px solid #000000;}
+hr.style1,hr.style2,hr.style3,hr.style4,hr.style5,hr.style6,hr.style7{border: 1px solid white;width:280px}
+#tech1{margin-left:40px;font-family: 'Satisfy', cursive; font-size:25px;;color: white;font-weight:bold}
+#tech2{margin-left:100px;font-family: 'Satisfy', cursive; font-size:25px;font-weight:bold}
+#tech3{margin-left:100px;font-family: 'Satisfy', cursive; font-size:25px;font-weight:bold}
+#tech4{margin-left:40px;font-family: 'Satisfy', cursive; font-size:25px;font-weight:bold}
+#tech5{margin-left:60px;font-family: 'Satisfy', cursive; font-size:25px;font-weight:bold}
+#write_1,#write_3,#write_5{font-family: 'Satisfy', cursive; font-size:22px; color: white; margin-left:70px}
+#write_2,#write_4{font-family: 'Satisfy', cursive; font-size:21px; color: white; margin-left:10px}
+#about_me{font-family: 'Satisfy', cursive; font-size:23px; color: white; font-weight:bold}
+#about_me_link a{font-family: 'Satisfy', cursive; font-size:22px; color: white;margin-left:50px; text-decoration:none;font-weight:bold}
+.fb{background: url("FbFevicon.png") no-repeat 6px center;width: 45px;  height: 45px;  display: block; background-size: 45px 45px;border: 1px solid #665790 ;border-radius:50px; padding:5px}
+.twitter{margin-left:80px;margin-top:-57px;background: url("TwitterFevicon.png") no-repeat 6px center;width: 45px;  height: 45px;  display: block; background-size: 45px 45px;border: 1px solid #665790 ;border-radius:50px; padding:5px}
+.instagram{margin-left:160px;margin-top:-57px;background: url("InstaFevicon.png") no-repeat 6px center;width: 45px;  height: 45px;  display: block; background-size: 45px 45px;border: 1px solid #665790 ;border-radius:50px; padding:5px}
+.social_link_underline{border: 2px solid #665790;width:240px;margin-left:-10px}
 </style>
 </head>
 <body>
@@ -73,15 +98,28 @@
 
 <div id="container">
 <div class="arrow_box">
-	<div id="aboutMe">Hi, I’m Rohit Tiwari. I’m a web developer. I write. I design. I do a fair bit more! Love travelling, food, Pet lover. </div>
+	<div id="aboutMe">Hi, I’m Rohit Tiwari. Presently working at HCL TECHNOLOGIES. I’m a web developer. I write. I design. I do a fair bit more! Love travelling, food, Pet lover. </div>
  </div>
 
 <div class="ChatBox"></div>
 <div class="circle"></div>
-<div class="vertical-line" />
-<div id="company">Presently working at HCL TECHNOLOGIES.</span>
+
+<div class="know_about_me"><span id="about_me">To know more about me...Please click on below link</span><br/><span id="about_me_link"> <a href="#">My RESUME</a></span></div>
+<div class="social_links"><a href="https://www.facebook.com/Rohitt123" class="fb"></a><a href="https://twitter.com/Rohitpragmatic" class="twitter"></a><a href="https://www.instagram.com/rohit26tiwari" class="instagram"></a>
+<hr class="social_link_underline"/>
 </div>
 </div>
 
+<div class="right-side-menu">
+<div id="technology_known_1"><span id="tech1">Front-end Technologies</span> <br/><hr class="style1"/> <span id="write_1">Jquery,CSS,HTML</span></div>
+<div id="technology_known_2"><span id="tech2">Language</span><hr class="style2"/><span id="write_2">&nbsp Java & Adv. Java(Servlet and JSP)</span></div>
+<div id="technology_known_3"><span id="tech3">Database</span><hr class="style3"/><span id="write_3"> Mysql,Oracle 10g</span></div>
+<div id="technology_known_4"><span id="tech4">Opensource Technologies</span><hr class="style4"/><span id="write_4"> Elasticsearch, Grafana, Fluentd</span></div>
+<div id="technology_known_5"><span id="tech5">Operating System</span><hr class="style5"/><span id="write_5"> Windows,Linux(Ubuntu)</span></div>
+<!--<div id="technology_known_6"><span id="tech1">Web Technologies</span><hr class="style6"/><span id="write_6"> Web Service JAX-RS</span></div>
+<div id="technology_known_7"><span id="tech1">Repositories</span><hr class="style7"/><span id="write_6"> Github,Perforce</span></div>-->
+
+</div>
+</div>
 </body>
 </html>
